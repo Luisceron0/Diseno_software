@@ -3,7 +3,6 @@ package herenciaCirculo;
 public class Main {
 
 	public Main() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public static void main(String[] args) {
@@ -17,6 +16,17 @@ public class Main {
 		circle.setColor("green");
 
 		System.out.println(circle.toString()); // Circle[radius=10.0, color=green]
+	
+		Cilinder cilinder = new Cilinder(5.0,4.0, "Green");
+
+		System.out.println(cilinder.getRadius()); // 
+		System.out.println(cilinder.getHeight()); // 
+		System.out.println(cilinder.getVolume()); // 
+
+		cilinder.setHeight(8);
+		cilinder.setColor("orange");
+
+		System.out.println(cilinder.toString());
 	}
 
 }

@@ -28,9 +28,4 @@ public class Disco extends Publication {
         System.out.println("Price: " + price);
         System.out.println("Duration: " + duration);
     }
-
-    @Override
-    public String toString() {
-        return String.format("Disco[Publication[title=%s, price=%s], duration=%s]", super.getTitle(), super.getPrice(), duration);
-    }
 }
